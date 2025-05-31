@@ -1,65 +1,64 @@
-
 # Arquivos compilados do Java
-*.class
+**/*.class
 
 # Arquivos de saída do IDE
-*.war
-*.ear
-*.jar
+**/*.war
+**/*.ear
+**/*.jar
 
-# Pastas geradas pelo build
-/target/
-/bin/
-/build/
-/out/
-/dist/
+# Pastas geradas pelo build (em qualquer nível)
+**/target/
+**/bin/
+**/build/
+**/out/
+**/dist/
 
 # Pastas e arquivos de dependências (Maven, Gradle, etc.)
-.gradle/
-.settings/
+**/.gradle/
+**/.settings/
 
-# Arquivos específicos do Eclipse
-.classpath
-.project
+# Arquivos específicos do Eclipse (em qualquer lugar)
+**/.classpath
+**/.project
 
 # Arquivos específicos do IntelliJ IDEA
-*.iml
-*.ipr
-*.iws
-.idea/
+**/*.iml
+**/*.ipr
+**/*.iws
+**/.idea/
 
 # Arquivos específicos do NetBeans
-/nbproject/private/
-/nbbuild/
-/nbdist/
-/nb-gradle/
+**/nbproject/private/
+**/nbbuild/
+**/nbdist/
+**/.nb-gradle/
 
 # VS Code
-.vscode/
+**/.vscode/
 
 # Arquivos de log
-*.log
+**/*.log
 
 # Arquivos temporários
-*.tmp
-*.bak
-*.swp
-*~.nib
+**/*.tmp
+**/*.bak
+**/*.swp
+**/*~.nib
 
 # Arquivos do sistema
-.DS_Store
-Thumbs.db
+**/.DS_Store
+**/Thumbs.db
 
 # Arquivos do Maven (gerados localmente)
-dependency-reduced-pom.xml
-pom.xml.versionsBackup
-pom.xml.next
+**/dependency-reduced-pom.xml
+**/pom.xml.versionsBackup
+**/pom.xml.next
 
 # Arquivos de configuração local
-*.properties
-*.cfg
-*.config
+**/*.properties
+**/*.cfg
+**/*.config
 
 # Arquivos de ambiente (dev, test, prod)
-.env
-*.env
+**/.env
+**/*.env
