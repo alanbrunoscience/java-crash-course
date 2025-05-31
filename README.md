@@ -2,13 +2,14 @@
   <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo" width="120"/>
 </p>
 
+
 <br>
 
 # Complete Java Course - Object-Oriented Programming + Projects
 
 <br>
 
-This repository contains exercises, projects, and notes developed by **Alan Bruno** during the **[Complete Java Course - Object-Oriented Programming + Projects](https://www.udemy.com/course/java-curso-completo/?srsltid=AfmBOor14nRT5sp1sHdTBJcIekjZcpPGDS4cR6vX7PaktXu8lt0-m--)**, taught by **Nelio Alves** on the **Udemy** platform.
+This repository contains exercises, projects, and notes developed by **[Alan Bruno](https://www.linkedin.com/in/alanbmrosa/)** during the **[Complete Java Course - Object-Oriented Programming + Projects](https://www.udemy.com/course/java-curso-completo/?srsltid=AfmBOor14nRT5sp1sHdTBJcIekjZcpPGDS4cR6vX7PaktXu8lt0-m--)**, taught by **Nelio Alves** on the **Udemy** platform.
 
 <br>
 
@@ -48,7 +49,7 @@ The course progressively and practically covers the following topics:
 
 <br>
 
-This repository was developed by **Alan Bruno** as part of his learning journey in Java and backend development.
+**[Alan Bruno](https://www.linkedin.com/in/alanbmrosa/)** developed this repository as part of his learning journey in Java and backend development.
 
 <br>
 
@@ -56,6 +57,8 @@ This repository was developed by **Alan Bruno** as part of his learning journey 
 
 <br>
 
-**📘 Platform:** Udemy  
-**🎓 Instructor:** Nelio Alves  
-**🚀 Course:** Complete Java Course - Object-Oriented Programming + Projects  
+**📘 Platform:** Udemy;
+
+**🎓 Instructor:** Nelio Alves;
+
+**🚀 Course:** Complete Java Course - Object-Oriented Programming + Projects.
