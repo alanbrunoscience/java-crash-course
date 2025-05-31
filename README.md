@@ -1,4 +1,6 @@
-![Java Logo](https://www.vectorlogo.zone/logos/java/java-icon.svg)
+<p align="center">
+  <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo" width="120"/>
+</p>
 
 <br>
 
@@ -47,6 +49,8 @@ The course progressively and practically covers the following topics:
 <br>
 
 This repository was developed by **Alan Bruno** as part of his learning journey in Java and backend development.
+
+<br>
 
 ---
 
