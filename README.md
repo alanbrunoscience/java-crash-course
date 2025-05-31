@@ -1,38 +1,57 @@
 ![Java Logo](https://www.vectorlogo.zone/logos/java/java-icon.svg)
 
-# Curso Java COMPLETO - Programação Orientada a Objetos + Projetos
+<br>
 
-Este repositório contém os exercícios, projetos e anotações desenvolvidos por **Alan Bruno** durante o curso **Java COMPLETO - Programação Orientada a Objetos + Projetos**, ministrado por **Nelio Alves** na plataforma **Udemy**.
+# Complete Java Course - Object-Oriented Programming + Projects
 
-## ✅ Conteúdos abordados
+<br>
 
-O curso cobre, de forma progressiva e prática, os seguintes tópicos:
+This repository contains exercises, projects, and notes developed by **Alan Bruno** during the **[Complete Java Course - Object-Oriented Programming + Projects](https://www.udemy.com/course/java-curso-completo/?srsltid=AfmBOor14nRT5sp1sHdTBJcIekjZcpPGDS4cR6vX7PaktXu8lt0-m--)**, taught by **Nelio Alves** on the **Udemy** platform.
 
-- Fundamentos de lógica de programação e algoritmos  
-- Sintaxe da linguagem Java  
-- Programação Orientada a Objetos (POO): classes, atributos, métodos, construtores, encapsulamento, sobrecarga, herança, polimorfismo e interfaces  
-- Enumerações, composição  
-- Estruturas de dados: arrays, coleções  
-- Tratamento de exceções  
-- Generics e programação funcional: expressões lambda e Stream API  
-- Manipulação de arquivos  
-- Acesso a banco de dados: JDBC (SQL), JPA/Hibernate (ORM), Spring Data JPA e MongoDB (NoSQL)  
-- Desenvolvimento de interfaces gráficas com JavaFX  
-- Desenvolvimento web com Spring Boot  
-- Controle de versão com Git e GitHub  
-- Gerenciamento de dependências com Maven  
-- Diagramas UML (classes e serviços)  
+<br>
 
-## 🎯 Objetivo
+## ✅ Topics Covered
 
-Adquirir uma base sólida e prática em Java, utilizando Programação Orientada a Objetos, com foco na criação de soluções reais, reutilizáveis e organizadas — preparando para atuar profissionalmente como desenvolvedor Java.
+<br>
 
-## 🧑‍💻 Autor dos códigos
+The course progressively and practically covers the following topics:
 
-Este repositório foi desenvolvido por **Alan Bruno**, como parte da sua jornada de aprendizado em Java e desenvolvimento backend.
+<br>
+
+- Fundamentals of programming logic and algorithms; 
+- Java language syntax;
+- Object-Oriented Programming (OOP): classes, attributes, methods, constructors, encapsulation, overloading, inheritance, polymorphism, and interfaces;
+- Enumerations and composition;
+- Data structures: arrays and collections;
+- Exception handling;
+- Generics and functional programming: lambda expressions and Stream API;
+- File manipulation;
+- Database access: JDBC (SQL), JPA/Hibernate (ORM), Spring Data JPA, and MongoDB (NoSQL);
+- GUI development with JavaFX;
+- Web development with Spring Boot;
+- Version control with Git and GitHub;
+- Project dependency management with Maven;
+- UML diagrams (classes and services);
+- And so on.
+
+<br>
+
+## 🎯 Objective
+
+<br>To acquire a solid and practical foundation in Java using Object-Oriented Programming, focusing on creating real, reusable, and organized solutions — preparing to work professionally as a Java developer.
+
+<br>
+
+## 🧑‍💻 Code Author
+
+<br>
+
+This repository was developed by **Alan Bruno** as part of his learning journey in Java and backend development.
 
 ---
 
-**📘 Plataforma:** Udemy  
-**🎓 Instrutor:** Nelio Alves  
-**🚀 Curso:** Java COMPLETO - Programação Orientada a Objetos + Projetos  
+<br>
+
+**📘 Platform:** Udemy  
+**🎓 Instructor:** Nelio Alves  
+**🚀 Course:** Complete Java Course - Object-Oriented Programming + Projects  
