@@ -56,6 +56,6 @@ This repository was developed by **Alan Bruno** as part of his learning journey 
 
 <br>
 
-**📘 Platform:** Udemy  
-**🎓 Instructor:** Nelio Alves  
-**🚀 Course:** Complete Java Course - Object-Oriented Programming + Projects  
+**📘 Platform:** Udemy;
+**🎓 Instructor:** Nelio Alves;
+**🚀 Course:** Complete Java Course - Object-Oriented Programming + Projects.
