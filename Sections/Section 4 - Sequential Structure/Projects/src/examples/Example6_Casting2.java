@@ -1,12 +1,8 @@
 package examples;
 
-import java.util.Locale;
-
-public class Example5_IntegerDivision {
+public class Example6_Casting2 {
 
 	public static void main(String[] args) {
-
-		Locale.setDefault(Locale.US);
 
 		// Variables Declaration
 		int a, b;
@@ -17,10 +13,10 @@ public class Example5_IntegerDivision {
 		b = 2;
 
 		// Processing
-		result = a / b;
+		result = (double) a / b;
 
 		// Data Output
-		System.out.println(result); // 2.0
+		System.out.println(result); // 2.5
 
 	}
 

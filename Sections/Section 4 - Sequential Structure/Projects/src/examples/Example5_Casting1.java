@@ -2,25 +2,25 @@ package examples;
 
 import java.util.Locale;
 
-public class Example4_TrapezoidArea2 {
+public class Example5_Casting1 {
 
 	public static void main(String[] args) {
 
 		Locale.setDefault(Locale.US);
 
 		// Variables Declaration
-		float b, B, h, area;
+		int a, b;
+		double result;
 
 		// Variables Assignment
-		b = 6f;
-		B = 8f;
-		h = 5f;
+		a = 5;
+		b = 2;
 
-		// Trapezoid Area
-		area = ((b + B) / 2f * h);
+		// Processing
+		result = a / b;
 
 		// Data Output
-		System.out.println(area); // 35.0
+		System.out.println(result); // 2.0
 
 	}
 
