@@ -10,7 +10,7 @@ public class Example7_Casting3 {
 
 		// Variables Assignment
 		a = 5.0;
-		// b = a; // ❌  Type mismatch: cannot convert from double to int
+		// b = a; // ❌ Type mismatch: cannot convert from double to int
 		b = (int) a;
 
 		// Data Output
