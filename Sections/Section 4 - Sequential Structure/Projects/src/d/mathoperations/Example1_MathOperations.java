@@ -1,4 +1,4 @@
-package mathoperations;
+package d.mathoperations;
 
 import java.util.Locale;
 

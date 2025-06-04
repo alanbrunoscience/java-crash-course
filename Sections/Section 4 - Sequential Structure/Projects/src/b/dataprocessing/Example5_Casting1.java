@@ -1,8 +1,12 @@
-package dataprocessing;
+package b.dataprocessing;
 
-public class Example6_Casting2 {
+import java.util.Locale;
+
+public class Example5_Casting1 {
 
 	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
 
 		// Variables Declaration
 		int a, b;
@@ -13,10 +17,10 @@ public class Example6_Casting2 {
 		b = 2;
 
 		// Processing
-		result = (double) a / b;
+		result = a / b;
 
 		// Data Output
-		System.out.println(result); // 2.5
+		System.out.println(result); // 2.0
 
 	}
 

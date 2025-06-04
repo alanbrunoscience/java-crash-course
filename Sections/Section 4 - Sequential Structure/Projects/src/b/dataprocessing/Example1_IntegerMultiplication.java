@@ -1,12 +1,11 @@
-package dataprocessing;
+package b.dataprocessing;
 
-public class Example2_IntDoubleMultiplication {
+public class Example1_IntegerMultiplication {
 
 	public static void main(String[] args) {
 
 		// Variables Declaration
-		int x;
-		double y;
+		int x, y;
 
 		// Variables Assignment
 		x = 5;
@@ -14,7 +13,7 @@ public class Example2_IntDoubleMultiplication {
 
 		// Data Output
 		System.out.println(x); // 5
-		System.out.println(y); // 10.0
+		System.out.println(y); // 10
 
 	}
 

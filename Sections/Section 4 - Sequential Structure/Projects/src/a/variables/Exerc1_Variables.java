@@ -1,4 +1,4 @@
-package variables;
+package a.variables;
 
 import java.util.Locale;
 

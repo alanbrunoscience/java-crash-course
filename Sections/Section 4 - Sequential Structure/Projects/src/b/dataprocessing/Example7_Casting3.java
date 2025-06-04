@@ -1,4 +1,4 @@
-package dataprocessing;
+package b.dataprocessing;
 
 public class Example7_Casting3 {
 

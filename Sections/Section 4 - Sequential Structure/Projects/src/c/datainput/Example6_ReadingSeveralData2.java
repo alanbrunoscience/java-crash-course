@@ -2,7 +2,7 @@
  * Reading several data on the same line (Corrected version 1)
  */
 
-package datainput;
+package c.datainput;
 
 import java.util.Locale;
 import java.util.Scanner;
