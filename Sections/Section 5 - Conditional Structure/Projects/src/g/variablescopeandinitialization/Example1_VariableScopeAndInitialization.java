@@ -33,8 +33,8 @@ public class Example1_VariableScopeAndInitialization {
 		}
 
 		// Data output
-		System.out.printf("%n-> The new price is US$ %.2f, and the discount applied was US$ %.2f.%n",
-				(price - discount), discount); // ❌ Error: discount cannot be resolved to a variable
+//		System.out.printf("%n-> The new price is US$ %.2f, and the discount applied was US$ %.2f.%n",
+//				(price - discount), discount); // ❌ Error: discount cannot be resolved to a variable
 
 		input.close();
 
