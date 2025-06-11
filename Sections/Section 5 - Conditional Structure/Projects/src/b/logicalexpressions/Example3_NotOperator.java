@@ -20,9 +20,9 @@ public class Example3_NotOperator {
 		// Data output
 		System.out.println("*** Logical Expressions Examples (!) ***\n");
 		System.out.printf("-> x = %d%n%n", x);
-		System.out.printf("1) !(x == 10) -> %s;%n", !(x == 10));
-		System.out.printf("2) !(x >= 2) -> %s;%n", !(x >= 2));
-		System.out.printf("3) !(x <= 20 && x == 10) -> %s.%n", !(x <= 20 && x == 10));
+		System.out.printf("1) !(x == 10) -> %s;%n", !(x == 10)); // true
+		System.out.printf("2) !(x >= 2) -> %s;%n", !(x >= 2)); // false
+		System.out.printf("3) !(x <= 20 && x == 10) -> %s.%n", !(x <= 20 && x == 10)); // true
 
 	}
 

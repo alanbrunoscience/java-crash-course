@@ -22,9 +22,9 @@ public class Example1_AndOperator {
 		// Data output
 		System.out.println("*** Logical Expressions Examples (&&) ***\n");
 		System.out.printf("-> x = %d%n%n", x);
-		System.out.printf("1) x <= 20 && x == 10 -> %s;%n", x <= 20 && x == 10);
-		System.out.printf("2) x > 0 && x != 3 -> %s;%n", x > 0 && x != 3);
-		System.out.printf("3) x <= 20 && x == 10 && x != 3 -> %s.%n", x <= 20 && x == 10 && x != 3);
+		System.out.printf("1) x <= 20 && x == 10 -> %s;%n", x <= 20 && x == 10); // false
+		System.out.printf("2) x > 0 && x != 3 -> %s;%n", x > 0 && x != 3); // true
+		System.out.printf("3) x <= 20 && x == 10 && x != 3 -> %s.%n", x <= 20 && x == 10 && x != 3); // false
 	
 	}
 

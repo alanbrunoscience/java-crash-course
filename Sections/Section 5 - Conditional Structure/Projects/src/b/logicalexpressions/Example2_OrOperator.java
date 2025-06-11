@@ -22,9 +22,9 @@ public class Example2_OrOperator {
 		// Data output
 		System.out.println("*** Logical Expressions Examples (||) ***\n");
 		System.out.printf("-> x = %d%n%n", x);
-		System.out.printf("1) x == 10 || x <= 20 -> %s;%n", x == 10 || x <= 20);
-		System.out.printf("2) x > 0 || x != 3 -> %s;%n", x > 0 || x != 3);
-		System.out.printf("3) x <= 0 || x != 3 || x != 5 -> %s.%n", x <= 0 || x != 3 || x != 5);
+		System.out.printf("1) x == 10 || x <= 20 -> %s;%n", x == 10 || x <= 20); // true
+		System.out.printf("2) x > 0 || x != 3 -> %s;%n", x > 0 || x != 3); // true
+		System.out.printf("3) x <= 0 || x != 3 || x != 5 -> %s.%n", x <= 0 || x != 3 || x != 5); // true
 
 	}
 
