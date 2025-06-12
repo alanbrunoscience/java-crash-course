@@ -9,7 +9,7 @@
  * 
  */
 
-package f.ternaryconditionalexpression;
+package f.ternary_conditional_expression;
 
 public class Example1_Explanation {
 

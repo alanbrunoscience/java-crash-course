@@ -10,7 +10,7 @@
  * 
  */
 
-package b.logicalexpressions;
+package b.logical_expressions;
 
 public class Example2_OrOperator {
 

@@ -7,7 +7,7 @@
  * 
  */
 
-package g.variablescopeandinitialization;
+package g.variable_scope_and_initialization;
 
 import java.util.Locale;
 import java.util.Scanner;

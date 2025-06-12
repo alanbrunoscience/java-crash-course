@@ -1,9 +1,9 @@
-package f.ternaryconditionalexpression;
+package f.ternary_conditional_expression;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Example3_CalculateDiscount2 {
+public class Example2_CalculateDiscount1 {
 
 	public static void main(String[] args) {
 
@@ -19,7 +19,11 @@ public class Example3_CalculateDiscount2 {
 		price = input.nextDouble();
 
 		// Processing
-		discount = (price < 20.0) ? price * 0.1 : price * 0.05;
+		if (price < 20.0) {
+			discount = price * 0.1;
+		} else {
+			discount = price * 0.05;
+		}
 
 		// Data output
 		System.out.printf("%n-> The new price is US$ %.2f, and the discount applied was US$ %.2f.%n",

@@ -1,4 +1,4 @@
-package c.conditionalstructure;
+package c.conditional_structure;
 
 public class Example4_ChainedConditionalStructures2 {
 

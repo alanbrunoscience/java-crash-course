@@ -1,4 +1,4 @@
-package a.comparativeexpressions;
+package a.comparative_expressions;
 
 public class ComparativeExpressions {
 

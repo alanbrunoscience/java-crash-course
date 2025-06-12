@@ -13,7 +13,7 @@
  * 
  */
 
-package d.cumulativeassignmentoperators;
+package d.cumulative_assignment_operators;
 
 import java.util.Locale;
 import java.util.Scanner;

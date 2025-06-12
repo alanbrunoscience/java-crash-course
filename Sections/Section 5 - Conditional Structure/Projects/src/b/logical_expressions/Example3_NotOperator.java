@@ -8,7 +8,7 @@
  * 
  */
 
-package b.logicalexpressions;
+package b.logical_expressions;
 
 public class Example3_NotOperator {
 
