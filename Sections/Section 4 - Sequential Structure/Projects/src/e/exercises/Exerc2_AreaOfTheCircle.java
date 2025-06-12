@@ -3,7 +3,7 @@ package e.exercises;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exerc02_AreaOfTheCircle {
+public class Exerc2_AreaOfTheCircle {
 
 	public static final double PI = 3.14159;
 

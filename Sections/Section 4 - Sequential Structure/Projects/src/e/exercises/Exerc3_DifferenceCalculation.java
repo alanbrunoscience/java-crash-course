@@ -2,7 +2,7 @@ package e.exercises;
 
 import java.util.Scanner;
 
-public class Exerc03_DifferenceCalculation {
+public class Exerc3_DifferenceCalculation {
 
 	public static void main(String[] args) {
 

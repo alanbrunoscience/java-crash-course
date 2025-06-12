@@ -18,7 +18,7 @@
  * 
  */
 
-package c.datainput;
+package c.data_input;
 
 import java.util.Locale;
 import java.util.Scanner;

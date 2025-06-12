@@ -1,25 +1,25 @@
-package c.datainput;
+package c.data_input;
 
 import java.util.Scanner;
 
-public class Example8_ReadingUntilLineBreak {
+public class Example9_PendingLineBreak {
 
 	public static void main(String[] args) {
 
 		Scanner input = new Scanner(System.in);
 
+		int x;
 		String s1, s2, s3;
-		
-		System.out.print("1) Enter the first string: ");
+
+		x = input.nextInt();
+		input.nextLine(); // To consume the pending line break
+
 		s1 = input.nextLine();
-		
-		System.out.print("2) Enter the second string: ");
 		s2 = input.nextLine();
-		
-		System.out.print("3) Enter the third string: ");
 		s3 = input.nextLine();
 
 		System.out.println("\n\n*** Entered data ***\n");
+		System.out.println(x);
 		System.out.println(s1);
 		System.out.println(s2);
 		System.out.println(s3);

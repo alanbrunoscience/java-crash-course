@@ -1,4 +1,4 @@
-package b.dataprocessing;
+package b.data_processing;
 
 import java.util.Locale;
 

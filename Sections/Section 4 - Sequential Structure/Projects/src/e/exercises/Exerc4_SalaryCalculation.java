@@ -3,7 +3,7 @@ package e.exercises;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Exerc04_SalaryCalculation {
+public class Exerc4_SalaryCalculation {
 
 	public static void main(String[] args) {
 
