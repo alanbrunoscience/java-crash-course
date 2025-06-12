@@ -9,7 +9,7 @@
  * 
  */
 
-package c.forloop;
+package c.for_loop;
 
 import java.util.Scanner;
 

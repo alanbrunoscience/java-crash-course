@@ -5,7 +5,7 @@
  * 
  */
 
-package d.dowhile;
+package d.do_while;
 
 import java.util.Locale;
 import java.util.Scanner;

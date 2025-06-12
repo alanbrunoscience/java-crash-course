@@ -1,4 +1,4 @@
-package a.usingdebugger;
+package a.using_debugger;
 
 import java.util.Locale;
 import java.util.Scanner;

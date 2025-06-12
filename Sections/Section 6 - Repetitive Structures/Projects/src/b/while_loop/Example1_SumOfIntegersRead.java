@@ -9,7 +9,7 @@
  * 
  */
 
-package b.whileloop;
+package b.while_loop;
 
 import java.util.Scanner;
 

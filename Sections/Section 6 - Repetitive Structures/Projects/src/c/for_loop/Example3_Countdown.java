@@ -1,4 +1,4 @@
-package c.forloop;
+package c.for_loop;
 
 public class Example3_Countdown {
 
