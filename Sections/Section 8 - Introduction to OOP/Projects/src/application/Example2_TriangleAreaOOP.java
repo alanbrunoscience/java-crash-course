@@ -1,7 +1,9 @@
-package a.solving_a_problem_without_oop;
+package application;
 
 import java.util.Locale;
 import java.util.Scanner;
+
+import entities.Triangle;
 
 /**
  * Make a program to read the measurements of the sides of two triangles X and Y
@@ -11,12 +13,14 @@ import java.util.Scanner;
  * The formula for calculating the area of ​​a triangle from the measures of its
  * sides a, b and c is as follows (Heron's formula):
  * 
- * area = Math.sqrt(p * (p - a) * p * (p - a) * p * (p - c)), where p = (a + b +
- * c) / 2.
+ * area = Math.sqrt(p * (p - a) * (p - b) * (p - c)), where p = (a + b + c) / 2.
+ * 
+ * P.S.: This program will be developed using the Object-Oriented Programming
+ * (OOP) paradigm.
  * 
  */
 
-public class Example1_TriangleArea {
+public class Example2_TriangleAreaOOP {
 
 	public static void main(String[] args) {
 
@@ -24,20 +28,20 @@ public class Example1_TriangleArea {
 
 		try (Scanner input = new Scanner(System.in)) {
 
-			double[] sidesX = new double[3];
-			double[] sidesY = new double[3];
+			Triangle x = new Triangle();
+			Triangle y = new Triangle();
 
 			// Data input
 			System.out.println("*** TRIANGLE X ***");
-			sidesX = dataInput(input, sidesX);
+			dataInput(input, x);
 
 			System.out.println("\n\n*** TRIANGLE Y ***");
-			sidesY = dataInput(input, sidesY);
+			dataInput(input, y);
 
 			// Processing
-			double areaX = calculateArea(sidesX);
-			double areaY = calculateArea(sidesY);
-			double larger = calculateTheGreatestArea(areaX, areaY);
+			double areaX = x.area();
+			double areaY = y.area();
+			double larger = maxArea(areaX, areaY);
 
 			// Data output
 			System.out.println("\n\n*** CALCULATED AREAS ***");
@@ -53,7 +57,7 @@ public class Example1_TriangleArea {
 
 	}
 
-	private static double[] dataInput(Scanner input, double[] sides) {
+	private static double[] dataInput(Scanner input, Triangle triangle) {
 
 		do {
 			for (int i = 0; i < 3; i++) {
@@ -62,17 +66,17 @@ public class Example1_TriangleArea {
 					System.out.print("\n-> Invalid input. Please enter a numerical value: ");
 					input.next(); // discard invalid input
 				}
-				sides[i] = input.nextDouble();
+				triangle.sides[i] = input.nextDouble();
 			}
 
-			if (!isValidTriangle(sides)) {
+			if (!triangle.isValid()) {
 				System.out.println(
 						"\n-> Invalid triangle! For a valid triangle, the sum of the lengths of any two sides must "
 								+ "always be greater than the third side.\nEnter the sides again!");
 			}
-		} while (!isValidTriangle(sides));
+		} while (!triangle.isValid());
 
-		return sides;
+		return triangle.sides;
 
 	}
 
@@ -95,24 +99,7 @@ public class Example1_TriangleArea {
 		}
 	}
 
-	private static boolean isValidTriangle(double[] sides) {
-
-		double a = sides[0], b = sides[1], c = sides[2];
-
-		return a + b > c && a + c > b && b + c > a;
-	}
-
-	private static double calculateArea(double[] sides) {
-
-		double a = sides[0], b = sides[1], c = sides[2], p;
-
-		p = (a + b + c) / 2;
-
-		return Math.sqrt(p * (p - a) * (p - b) * (p - c));
-
-	}
-
-	private static double calculateTheGreatestArea(double areaX, double areaY) {
+	private static double maxArea(double areaX, double areaY) {
 
 		return Math.max(areaX, areaY);
 
