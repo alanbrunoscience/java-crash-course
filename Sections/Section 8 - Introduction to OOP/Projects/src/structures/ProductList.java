@@ -22,8 +22,7 @@ public class ProductList {
 		ProductNode current = head;
 
 		// myStr1.compareToIgnoreCase(myStr2) > 0: if the string (myStr1) is
-		// lexicographically
-		// greater than the other string (myStr2) (more characters)
+		// lexicographically greater than the other string (myStr2) (more characters)
 		while (current.next != null && product.getName().compareToIgnoreCase(current.next.getProduct().getName()) > 0) {
 			current = current.next;
 		}
@@ -66,8 +65,7 @@ public class ProductList {
 
 	public boolean deleteProduct(String name, int quantity) {
 
-		if (head == null)
-			return false;
+		if (head == null) return false;
 
 		// Removing the product from the beginning of the list
 		if (head.getProduct().getName().equalsIgnoreCase(name)) {
