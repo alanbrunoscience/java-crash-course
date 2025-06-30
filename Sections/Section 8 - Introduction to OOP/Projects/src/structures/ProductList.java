@@ -122,10 +122,12 @@ public class ProductList {
 	public double totalValueOfList() {
 		double total = 0.0;
 		ProductNode current = head;
+		
 		while (current != null) {
 			total += current.getProduct().totalValueInStock();
 			current = current.next;
 		}
+		
 		return total;
 	}
 
