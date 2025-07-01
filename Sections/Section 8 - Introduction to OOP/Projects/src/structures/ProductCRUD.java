@@ -175,6 +175,9 @@ public class ProductCRUD {
 		}
 	}
 
+	/**
+	 * This method prints product info if found.
+	 */
 	public void searchProductByName(String name) {
 		int index = getIndex(name);
 		ProductNode found = productLists[index].searchProductByName(name);
@@ -189,6 +192,11 @@ public class ProductCRUD {
 		} else {
 			System.out.println("\n-> Product not found!");
 		}
+	}
+
+	public ProductNode findProductNodeByName(String name) {
+		int index = getIndex(name);
+		return productLists[index].searchProductByName(name);
 	}
 
 	private void updateQuantity(ProductNode node) {
@@ -247,6 +255,37 @@ public class ProductCRUD {
 
 		// Prints the total at the end of the listing
 		totalValueInStock();
+	}
+
+	/**
+	 * Lists products starting with a specific letter or '#'. Keeps the same
+	 * structure and comments style of the rest of the class.
+	 */
+	public void listProductsByLetter(char letter) {
+
+		// '\\p{M}': is a regex pattern that stands for "diacritical marks", i.e.: Acute
+		// accent, grave accent, tilde, umlaut, circumflex, etc.
+		String normalizedLetter = Normalizer.normalize(String.valueOf(letter), Normalizer.Form.NFD)
+				.replaceAll("\\p{M}", "").toUpperCase();
+
+		// Validate input: must be a letter (A-Z) or '#'
+		if (!normalizedLetter.matches("[A-Z#]")) {
+			System.out.println("\n-> Invalid letter! Please enter a letter between A-Z or '#'.");
+			return;
+		}
+
+		char finalLetter = normalizedLetter.charAt(0);
+		int index = (finalLetter >= 'A' && finalLetter <= 'Z') ? finalLetter - 'A' : 26;
+
+		if (!productLists[index].isEmpty()) {
+			System.out.println("\nProducts starting with '" + finalLetter + "':\n");
+			productLists[index].listProducts();
+
+			double totalValue = productLists[index].totalValueOfList();
+			System.out.printf("\n-> Total value of products starting with '%c': %.2f.%n", finalLetter, totalValue);
+		} else {
+			System.out.println("\n-> No products registered with this initial letter.");
+		}
 	}
 
 	public void deleteProduct(String name, int quantity) {

@@ -65,7 +65,8 @@ public class ProductList {
 
 	public boolean deleteProduct(String name, int quantity) {
 
-		if (head == null) return false;
+		if (head == null)
+			return false;
 
 		// Removing the product from the beginning of the list
 		if (head.getProduct().getName().equalsIgnoreCase(name)) {
@@ -122,12 +123,12 @@ public class ProductList {
 	public double totalValueOfList() {
 		double total = 0.0;
 		ProductNode current = head;
-		
+
 		while (current != null) {
 			total += current.getProduct().totalValueInStock();
 			current = current.next;
 		}
-		
+
 		return total;
 	}
 
