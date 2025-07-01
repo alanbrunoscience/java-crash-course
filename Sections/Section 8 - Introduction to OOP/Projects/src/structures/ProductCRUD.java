@@ -194,10 +194,10 @@ public class ProductCRUD {
 		}
 	}
 
-	public ProductNode findProductNodeByName(String name) {
-		int index = getIndex(name);
-		return productLists[index].searchProductByName(name);
-	}
+//	public ProductNode findProductNodeByName(String name) {
+//		int index = getIndex(name);
+//		return productLists[index].searchProductByName(name);
+//	}
 
 	private void updateQuantity(ProductNode node) {
 		System.out.println("\n-> Do you want to increment or overwrite the quantity?");
