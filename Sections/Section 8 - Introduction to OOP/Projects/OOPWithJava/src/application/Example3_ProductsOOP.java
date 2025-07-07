@@ -12,13 +12,13 @@ public class Example3_ProductsOOP {
 		Locale.setDefault(Locale.US);
 		Scanner input = new Scanner(System.in);
 		ProductCRUD productCRUD = new ProductCRUD();
-
+		
 		int option;
 
 		do {
-			System.out.println("\n*** Java Product Manager ***");
+			System.out.println("\n\n*** Java Product Manager ***");
 			System.out.println("\nChoose an option below:");
-			System.out.println("1 - Register a product;");
+			System.out.println("\n1 - Register a product;");
 			System.out.println("2 - Update an existing product;");
 			System.out.println("3 - Search for a product by name;");
 			System.out.println("4 - List all products;");

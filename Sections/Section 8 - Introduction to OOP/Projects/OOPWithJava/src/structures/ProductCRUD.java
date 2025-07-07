@@ -38,7 +38,7 @@ public class ProductCRUD {
 		ProductNode existingNode = productLists[index].searchProductByName(name);
 
 		if (existingNode != null) {
-			System.out.println("\n-> Product already exists!");
+			System.out.println("\n-> Product already exists!");			
 			updateExistingProduct(existingNode);
 		} else {
 			try {
@@ -100,7 +100,7 @@ public class ProductCRUD {
 
 	private void updateName(ProductNode node) {
 		input.nextLine();
-		System.out.print("Enter the new product name: ");
+		System.out.print("\n1)Enter the new product name: ");
 		String newName = input.nextLine();
 
 		try {
